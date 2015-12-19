@@ -1,0 +1,4 @@
+name = cg_core
+description = This module is very simple.
+core = 7.x
+version = 7.x-1.x
