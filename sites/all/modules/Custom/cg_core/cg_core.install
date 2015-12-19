@@ -1,0 +1,16 @@
+<?php
+function cg_core_enable() {
+drupal_set_message($message = t('The cg_core module was successfully enabled.'), $type = 'status');
+
+  $enable = array(
+    'theme_default' => 'cont_good',
+    //'zen'
+  );
+  theme_enable($enable);
+
+  foreach ($enable as $var => $theme) {
+    if (!is_numeric($var)) {
+      variable_set($var, $theme);
+    }
+  }
+}
