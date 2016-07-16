@@ -77,7 +77,7 @@ function cg_cause_type_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_mission_statement',
-    'label' => 'Mission Statement',
+    'label' => 'Mission Statementzzzzz',
     'required' => 1,
     'settings' => array(
       'text_processing' => 0,
@@ -97,7 +97,7 @@ function cg_cause_type_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
-  t('Mission Statement');
+  t('Mission Statementzzzzz');
 
   return $field_instances;
 }
