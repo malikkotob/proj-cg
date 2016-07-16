@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Continuous Good Cause Content Type feature.
+ */
+
+include_once 'cg_cause_type.features.inc';

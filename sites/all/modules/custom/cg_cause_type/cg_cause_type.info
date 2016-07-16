@@ -1,0 +1,12 @@
+name = Continuous Good Cause Content Type
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_mission_statement
+features[field_instance][] = node-cause-body
+features[field_instance][] = node-cause-field_mission_statement
+features[node][] = cause
+project path = sites/all/modules/custom
