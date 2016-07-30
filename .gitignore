@@ -5,5 +5,9 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 
+# Theme files to ignore.
+.sass-cache
+.sass-cache/
+
 # OS X
 .DS_Store
